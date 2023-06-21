@@ -12,16 +12,18 @@ html {
 header {
     padding: 2rem;
     text-align: center;
+    width: 100%;
 }
+
 header h1 {
-    font-weight: normal;
+    font-weight: normal;   
 }
 
 .container-main {
     display: flex;
     justify-content: center;
     width: 60%;
-    min-width: 56rem;
+    min-width: 896px;
     margin: auto;
     box-shadow: 1px 1px 8px gray;
 }
@@ -126,21 +128,38 @@ li address {
 }
 
 @media screen and (max-width: 905px) {
+    header {
+        width: 100%;
+    }
+
     .container-form {
         order: -1;
     }
 
     .container-main {
         flex-direction: column;
+        width: 100%;
+        min-width: unset;
     }
 
     .container-info {
         text-align: center;
+        flex-basis: auto;
     }
 
     .container-info ul {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 473px) {
+    .label-input:first-child {
+        flex-basis: 100%;
+    }
+    
+    .label-input:nth-child(2) {
+        flex-basis: 100%;
     }
 }

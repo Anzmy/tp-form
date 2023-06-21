@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@300;400;900&family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/abeee043f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Contact Form</title>
+  </head>
+  <header>
+    <h1>Contact Form #02</h1>
+  </header>
+  <body>
+    <div class="container-main">
+      <div class="container-info">
+        <h2>Let's get in touch</h2>
+        <p>We're open for any suggestion or just to have a chat</p>
+        <ul>
+          <li>
+            <span class="icon"
+              ><i class="fas fa-light fa-location-dot"></i
+            ></span>
+            <address>
+              Address:
+              <span class="info"
+                >198 West 21th Street, Suite 721 New York NY 10016</span
+              >
+            </address>
+          </li>
+          <li>
+            <span class="icon"><i class="fas fa-light fa-phone"></i></span>
+            <address>Phone: <span class="info">+ 1235 2355 98</span></address>
+          </li>
+          <li>
+            <span class="icon"><i class="fas fa-paper-plane"></i></span>
+            <address>
+              Email: <span class="info">info@yoursite.com</span>
+            </address>
+          </li>
+          <li>
+            <span class="icon"><i class="fas fa-earth-europe"></i></span
+            >Website: <span class="info">yoursite.com</span>
+          </li>
+        </ul>
+      </div>
+      <div class="container-form">
+        <h2>Get in touch</h2>
+        <form method="get" action="" class="form-style">
+          <div class="label-input">
+            <label for="fullname"> FULL NAME</label>
+            <input
+              type="text"
+              name="fullname"
+              id="fullname"
+              placeholder="Name"
+              maxlength="45"
+            />
+          </div>
+          <div class="label-input">
+            <label for="email">EMAIL ADDRESS</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              maxlength="45"
+            />
+          </div>
+          <div class="label-input">
+            <label for="subject">SUBJECT</label>
+            <input type="text" name="subject" id="subject" placeholder="Subject" maxlength="100" />
+          </div>
+          <div class="label-input">
+            <label for="">MESSAGE</label>
+            <textarea name="" id="" placeholder="Message" maxlength="200"></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Send Message" class="button-form" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -89,7 +89,7 @@ li address {
 .label-input {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .label-input label {
@@ -99,6 +99,12 @@ li address {
 }
 
 .label-input input {
+    border: 0px;
+    border-bottom: 1px solid gray;
+}
+
+.label-input textarea {
+    height: 6rem;
     border: 0px;
     border-bottom: 1px solid gray;
 }
